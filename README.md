@@ -1,5 +1,5 @@
 # PietsGrafieken
-an easy way to show graphs in java
+an easy way to show graphs in java, graphs of the form y = f(x), y and x being doubles
 an example how to use it:
 
 public static void main(String[] args) {
