@@ -48,38 +48,6 @@ public class PietsGrafieken {
      */
     
     //==========================================================================
-    public static void main(String... args) {
-        
-        var aff = AffineTransformHelper.create(-2, 2, -2, 2, 0, 0,100, 100, true);
-//        var fs = PietsGrafieken.FourierSeries.getInstance()
-//                .withConstant(1)
-//                .withCosTerm((x, n) -> 0d)
-//                .withSinTerm((x, n) -> n % 2 == 0 ? 0d : sin(n * x) * -2 / (n * PI));
-//        ;
-//        var panel = new Builder()
-//            .withXmin(-4)
-//            .withXmax(3)
-//            .withyMax(5)
-//            .withyMin(-2)
-//            .withPanelwidth(500)
-//            .withFunctionNameColor(d -> d, "y = x", Color.red)
-//            .withFunctionNameColor(d -> cos(d * PI), "cos(pi * x)", Color.BLUE)
-//            .withFunctionNameColor(d -> Math.exp(d), "e^x", Color.PINK)
-//            .withFunctionNameColor(d -> fs.apply(d, 20), "fourier on/off 20 terms", Color.BLACK)
-//            .withFunctionNameColor(d -> fs.apply(d, 5), "fourier on/off 5 terms", Color.ORANGE)
-//            .build()
-//        ;
-//        
-//        var f = new JFrame("test");
-//        f.setContentPane(panel);
-//        f.pack();
-//        f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-//        f.setLocationRelativeTo(null);
-//        f.setVisible(true);
-    }
-    //==========================================================================
-    
-    //==========================================================================
     //  static methods
     //==========================================================================
     static Point2D p2d(double x, double y) {
